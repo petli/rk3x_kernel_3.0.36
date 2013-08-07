@@ -62,7 +62,7 @@ obj-$(CONFIG_BCM4329)   += bcm4329/
 obj-$(CONFIG_BCMDHD)	+= bcmdhd/
 obj-$(CONFIG_BCM40181)  += bcm40181/
 #Galland: the following CONFIG_RTL8188EU line is from original Picuntu, though it may conflict with RK kernel's integrated rtl8188eu in rkusbwifi folder below
-#obj-$(CONFIG_RTL8188EU)   += rtl8188eu/
+obj-$(CONFIG_RTL8188EU)   += rtl8188eu/
 obj-$(CONFIG_MV8686)   += mv8686/
 obj-$(CONFIG_BCM4319)   += bcm4319/
 obj-$(CONFIG_RTL8192CU) += rkusbwifi/
